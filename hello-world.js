@@ -5,7 +5,7 @@ const port = 4242;
 // then register a listener callback for the startup
 // following javascript "style":
 const server = http.createServer((req, res) => {
-    console.log(`Received request from agent ${req.headers['user-agent']}`);
+    console.log(`Received request from agent ${req.headers["user-agent"]}`);
     res.statusCode = 200; // OK
     res.setHeader('Content-Type', 'text/html');
     res.end("Hello, world!\n");
