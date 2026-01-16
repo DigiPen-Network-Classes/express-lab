@@ -1,0 +1,20 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "The starter files for the first Lab of CS 261 - Getting started with Express.",
+  "homepage": "https://github.com/DigiPen-Network-Classes/express-lab#readme",
+  "bugs": {
+    "url": "https://github.com/DigiPen-Network-Classes/express-lab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigiPen-Network-Classes/express-lab.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "hello-world-express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
