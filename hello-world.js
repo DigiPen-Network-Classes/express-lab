@@ -10,5 +10,5 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
     res.end("Hello, world!\n");
 }).listen(port, () => {
-    console.log('started server at location', server.address());
+    console.log(`example app listening on port ${port}`);
 });
